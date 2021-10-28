@@ -1,0 +1,7 @@
+{
+  "name": "trickAndTreat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
