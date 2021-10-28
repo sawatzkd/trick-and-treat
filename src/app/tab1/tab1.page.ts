@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {LocationRating} from "../model/location-rating";
 
 @Component({
   selector: 'app-tab1',
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  get testLocation(): LocationRating {
+    let rating = new LocationRating();
+    rating.rating = "FULL_SIZE";
+    rating.location='test';
+    return rating;
+  }
 
 }

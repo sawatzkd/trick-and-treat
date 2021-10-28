@@ -1,0 +1,20 @@
+<ion-list-header>
+  <ion-label>Rating</ion-label>
+</ion-list-header>
+<ion-radio-group allow-empty-selection="true" (ionChange)="ratingHandler($event)" (ionSelect)="ratingSelect($event)" [value]="locationRating.rating">
+  <ion-item>
+    <ion-label>Terrible</ion-label>
+    <img src="assets/images/tootsie-roll.png"/>
+    <ion-radio slot="start" value="TERRIBLE"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>Good</ion-label>
+    <img src="assets/images/mini-chocolate.png"/>
+    <ion-radio slot="start" value="GOOD"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>Full Size bars</ion-label>
+    <img src="assets/images/full-size-chocolate.png"/>
+    <ion-radio slot="start" value="FULL_SIZE"></ion-radio>
+  </ion-item>
+</ion-radio-group>
