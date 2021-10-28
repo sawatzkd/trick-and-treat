@@ -12,7 +12,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="REPLACE_ME_WITH_KEY" />
+            android:value="AIzaSyA5H8TzqOoAhmwqKIwrs9QokGzb6sXmBsI" />
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:name="io.ionic.starter.MainActivity"

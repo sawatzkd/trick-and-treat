@@ -25,27 +25,27 @@ export class Tab2Page {
       height: Math.round(boundingRect.height),
       x: Math.round(boundingRect.x),
       y: Math.round(boundingRect.y),
-      latitude: -33.86,
-      longitude: 151.20,
-      zoom: 12
+      latitude: 50.439,
+      longitude: -104.622,
+      zoom: 14
     });
 
-    // CapacitorGoogleMaps.addListener("onMapReady", async function() {
+    CapacitorGoogleMaps.addListener("onMapReady", async function() {
 
-    //   /*
-    //     We can do all the magic here when map is ready
-    //   */
+      /*
+        We can do all the magic here when map is ready
+      */
 
-    //   CapacitorGoogleMaps.addMarker({
-    //     latitude: -33.86,
-    //     longitude: 151.20,
-    //     title: "Custom Title",
-    //     snippet: "Custom Snippet",
-    //   });
+      CapacitorGoogleMaps.addMarker({
+        latitude: 50.439,
+        longitude: -104.622,
+        title: "Custom Title",
+        snippet: "Custom Snippet",
+      });
 
-    //   CapacitorGoogleMaps.setMapType({
-    //     "type": "normal"
-    //   })
-    // })
+      CapacitorGoogleMaps.setMapType({
+        "type": "normal"
+      })
+    })
   }
 }
