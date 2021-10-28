@@ -6,6 +6,8 @@ import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { Tab1PageRoutingModule } from './tab1-routing.module';
+import {RatingDetailsComponent} from "./rating-details/rating-details.component";
+import {LocationRating} from "../model/location-rating";
 
 @NgModule({
   imports: [
@@ -15,6 +17,6 @@ import { Tab1PageRoutingModule } from './tab1-routing.module';
     ExploreContainerComponentModule,
     Tab1PageRoutingModule
   ],
-  declarations: [Tab1Page]
+    declarations: [Tab1Page, RatingDetailsComponent]
 })
 export class Tab1PageModule {}
