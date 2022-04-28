@@ -1,4 +1,4 @@
-# Specifies intentionally untracked files to ignore when using Git. Seems to work well
+# Specifies intentionally untracked files to ignore when using Git. Seems to work well. One more addition
 # http://git-scm.com/docs/gitignore
 
 *~
